@@ -1,0 +1,3 @@
+enum ShareType {
+  wx,
+}
