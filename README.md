@@ -22,4 +22,4 @@
 
 欢迎加入QQ群进行技术交流和反馈问题，QQ群：571673394
 
-<img src="./images/qq-team.png" width="480px" height="720px"/>
+<img src="./images/qq-team.png" width="320px" height="480px"/>
