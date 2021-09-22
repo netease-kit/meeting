@@ -53,7 +53,7 @@ class LoginByPasswordState extends LifecycleBaseState {
   void initState() {
     super.initState();
     _inputMobile = mobile;
-    _phoneController = MaskedTextController(text: mobile, mask: '000 0000 0000');
+    _phoneController = TextEditingController();
     focusCallback = () {
       setState(() {
         _mobileFocus = _focusNode.hasFocus;

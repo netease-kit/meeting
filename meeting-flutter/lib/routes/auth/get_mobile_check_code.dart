@@ -28,8 +28,7 @@ class GetMobileCheckCodeRoute extends StatefulWidget {
 }
 
 class GetMobileCheckCodeState extends AuthBaseState {
-  final TextEditingController _mobileController =
-      MaskedTextController(mask: '000 0000 0000');
+  final TextEditingController _mobileController = TextEditingController();
   final FocusNode _focusNode = FocusNode();
   bool _mobileFocus = false;
   late VoidCallback focusCallback;

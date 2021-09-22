@@ -46,8 +46,7 @@ class LoginByMobileState extends LifecycleBaseState {
   @override
   void initState() {
     super.initState();
-    _mobileController =
-        MaskedTextController(text: mobile, mask: '000 0000 0000');
+    _mobileController = TextEditingController();
     _focusNode.addListener(() {
       setState(() {
         _mobileFocus = _focusNode.hasFocus;
@@ -128,7 +127,7 @@ class LoginByMobileState extends LifecycleBaseState {
                           Expanded(
                             child: TextField(
                               key: MeetingValueKey.hintMobile,
-                              focusNode: _focusNode,
+                              //focusNode: _focusNode,
                               controller: _mobileController,
                               keyboardType: TextInputType.number,
                               cursorColor: AppColors.blue_337eff,
