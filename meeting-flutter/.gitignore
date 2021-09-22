@@ -1,0 +1,4 @@
+.idea
+**/Podfile.lock
+ios/Runner.xcworkspace/
+build

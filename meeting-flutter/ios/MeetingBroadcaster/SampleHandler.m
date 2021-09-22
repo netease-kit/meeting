@@ -1,9 +1,6 @@
-//
-//  SampleHandler.m
-//  NEMeetingDevDemo-Broadcast
-//
-//  Created by 李成达 on 2021/5/17.
-//
+// Copyright (c) 2021 NetEase, Inc.  All rights reserved.
+// Use of this source code is governed by a MIT license that can be
+// found in the LICENSE file.
 
 
 #import "SampleHandler.h"

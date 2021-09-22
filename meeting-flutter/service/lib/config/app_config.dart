@@ -1,3 +1,7 @@
+// Copyright (c) 2021 NetEase, Inc.  All rights reserved.
+// Use of this source code is governed by a MIT license that can be
+// found in the LICENSE file.
+
 import 'package:base/manager/device_manager.dart';
 import 'package:base/util/timeutil.dart';
 import 'package:device_info/device_info.dart';

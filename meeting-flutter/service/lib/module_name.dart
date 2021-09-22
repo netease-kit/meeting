@@ -1,4 +1,5 @@
-// Copyright (c) 2014-2020 NetEase, Inc.
-// All right reserved.
+// Copyright (c) 2021 NetEase, Inc.  All rights reserved.
+// Use of this source code is governed by a MIT license that can be
+// found in the LICENSE file.
 
 const moduleName = 'meeting-flutter-service';
