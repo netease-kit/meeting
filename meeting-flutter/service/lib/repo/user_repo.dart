@@ -1,3 +1,7 @@
+// Copyright (c) 2021 NetEase, Inc.  All rights reserved.
+// Use of this source code is governed by a MIT license that can be
+// found in the LICENSE file.
+
 import 'package:base/util/global_preferences.dart';
 import 'package:service/model/security_notice_info.dart';
 import 'package:service/repo/i_repo.dart';

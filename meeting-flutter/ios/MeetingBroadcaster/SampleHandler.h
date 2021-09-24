@@ -1,10 +1,6 @@
-//
-//  SampleHandler.h
-//  MeetingBroadcaster
-//
-//  Created by 李成达 on 2021/5/19.
-//  Copyright © 2021 The Chromium Authors. All rights reserved.
-//
+// Copyright (c) 2021 NetEase, Inc.  All rights reserved.
+// Use of this source code is governed by a MIT license that can be
+// found in the LICENSE file.
 
 #import <ReplayKit/ReplayKit.h>
 #import <NEScreenShareBroadcaster/NEScreenShareBroadcaster.h>

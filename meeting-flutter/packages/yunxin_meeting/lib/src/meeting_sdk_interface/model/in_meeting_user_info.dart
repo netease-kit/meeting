@@ -1,4 +1,8 @@
 
+// Copyright (c) 2021 NetEase, Inc.  All rights reserved.
+// Use of this source code is governed by a MIT license that can be
+// found in the LICENSE file.
+
 /// 会议中的成员信息类
 class NEInMeetingUserInfo {
   final String userId;

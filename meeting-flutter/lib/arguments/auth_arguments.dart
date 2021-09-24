@@ -1,3 +1,7 @@
+// Copyright (c) 2021 NetEase, Inc.  All rights reserved.
+// Use of this source code is governed by a MIT license that can be
+// found in the LICENSE file.
+
 import 'package:service/config/scene_type.dart';
 
 ///修改密码的类型：1、忘记密码 2、设置页面修改密码

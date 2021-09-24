@@ -1,3 +1,7 @@
+// Copyright (c) 2021 NetEase, Inc.  All rights reserved.
+// Use of this source code is governed by a MIT license that can be
+// found in the LICENSE file.
+
 import 'package:base/util/error.dart';
 import 'package:yunxin_alog/yunxin_alog.dart';
 import 'package:base/util/textutil.dart';
@@ -42,8 +46,7 @@ class LoginByMobileState extends LifecycleBaseState {
   @override
   void initState() {
     super.initState();
-    _mobileController =
-        MaskedTextController(text: mobile, mask: '000 0000 0000');
+    _mobileController = TextEditingController();
     _focusNode.addListener(() {
       setState(() {
         _mobileFocus = _focusNode.hasFocus;
@@ -124,7 +127,7 @@ class LoginByMobileState extends LifecycleBaseState {
                           Expanded(
                             child: TextField(
                               key: MeetingValueKey.hintMobile,
-                              focusNode: _focusNode,
+                              //focusNode: _focusNode,
                               controller: _mobileController,
                               keyboardType: TextInputType.number,
                               cursorColor: AppColors.blue_337eff,

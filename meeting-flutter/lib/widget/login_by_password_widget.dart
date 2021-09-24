@@ -1,3 +1,7 @@
+// Copyright (c) 2021 NetEase, Inc.  All rights reserved.
+// Use of this source code is governed by a MIT license that can be
+// found in the LICENSE file.
+
 import 'package:base/util/error.dart';
 import 'package:base/util/stringutil.dart';
 import 'package:base/util/textutil.dart';
@@ -49,7 +53,7 @@ class LoginByPasswordState extends LifecycleBaseState {
   void initState() {
     super.initState();
     _inputMobile = mobile;
-    _phoneController = MaskedTextController(text: mobile, mask: '000 0000 0000');
+    _phoneController = TextEditingController();
     focusCallback = () {
       setState(() {
         _mobileFocus = _focusNode.hasFocus;

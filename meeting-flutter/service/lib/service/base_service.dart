@@ -1,3 +1,7 @@
+// Copyright (c) 2021 NetEase, Inc.  All rights reserved.
+// Use of this source code is governed by a MIT license that can be
+// found in the LICENSE file.
+
 import 'package:service/auth/auth_manager.dart';
 import 'package:service/client/http_code.dart';
 import 'package:service/proto/base_proto.dart';

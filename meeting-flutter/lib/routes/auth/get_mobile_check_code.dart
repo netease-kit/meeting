@@ -1,3 +1,7 @@
+// Copyright (c) 2021 NetEase, Inc.  All rights reserved.
+// Use of this source code is governed by a MIT license that can be
+// found in the LICENSE file.
+
 import 'package:base/util/error.dart';
 import 'package:yunxin_alog/yunxin_alog.dart';
 import 'package:base/util/textutil.dart';
@@ -24,8 +28,7 @@ class GetMobileCheckCodeRoute extends StatefulWidget {
 }
 
 class GetMobileCheckCodeState extends AuthBaseState {
-  final TextEditingController _mobileController =
-      MaskedTextController(mask: '000 0000 0000');
+  final TextEditingController _mobileController = TextEditingController();
   final FocusNode _focusNode = FocusNode();
   bool _mobileFocus = false;
   late VoidCallback focusCallback;

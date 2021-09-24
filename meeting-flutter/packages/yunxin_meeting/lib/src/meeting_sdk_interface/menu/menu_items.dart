@@ -1,7 +1,6 @@
-/*
- * Copyright (c) 2014-2020 NetEase, Inc.
- * All right reserved.
- */
+// Copyright (c) 2021 NetEase, Inc.  All rights reserved.
+// Use of this source code is governed by a MIT license that can be
+// found in the LICENSE file.
 import 'menu_item.dart';
 
 /// 开发者自定义的注入菜单ID应该大于等于该值，小于该值的菜单为SDK内置菜单。
