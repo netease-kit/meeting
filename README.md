@@ -8,7 +8,7 @@
 
 ![会议中](./images/inmeeting.gif)
 
-## Demo 体验
+## 应用体验
 
 欢迎访问[网易会议官网](https://meeting.163.com/)下载对应平台应用/客户端进行体验
 
@@ -22,4 +22,4 @@
 
 欢迎加入QQ群进行技术交流和反馈问题，QQ群：571673394
 
-<img src="./images/qq-team.png" width="480px" height="640px"/>
+<img src="./images/qq-team.png" width="320px" height="480px"/>
