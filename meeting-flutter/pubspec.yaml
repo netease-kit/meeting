@@ -57,6 +57,8 @@ dependencies:
 
   flutter_newebview: ^1.0.0-rc.0
 
+  platform: ^3.1.0
+
 dev_dependencies:
 #  flutter_driver:
 #    sdk: flutter
